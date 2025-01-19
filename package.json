@@ -9,10 +9,13 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm run build && open http://localhost:7070 && npm run server",
+    "server": "python3 backend/app.py",
+    "react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "react-scripts watch"
   },
   "eslintConfig": {
     "extends": [
@@ -31,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
