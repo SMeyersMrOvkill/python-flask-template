@@ -9,7 +9,7 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "npm run build && open http://localhost:7070 && npm run server",
+    "start": "npm run build && npm run server",
     "server": "python3 backend/app.py",
     "react": "react-scripts start",
     "build": "react-scripts build",

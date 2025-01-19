@@ -1,0 +1,14 @@
+modules = ["python-3.12", "nodejs-20", "web"]
+run = "npm run start"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "install.sh"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 7070
+externalPort = 80
+exposeLocalhost = true

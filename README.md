@@ -1,18 +1,26 @@
-# Python Flask & React Template Project
 
-This is a basic starting point for a Python/Flask/React stack.
+# Python Flask & React Template
+
+A production-ready template for building full-stack applications with React and Flask.
+
+## Features
+- React 19 frontend
+- Flask backend
+- Automated setup
+- Production build configuration
+- Hot reloading in development
+
+## Setup
+1. Fork this template
+2. Run `./install.sh`
+3. Use `npm start` to run both frontend and backend
+
+## Structure
+- `/src` - React frontend code
+- `/backend` - Flask backend code
+- `/build` - Production build output
+- `/public` - Static assets
 
 ## Credits
-
-- **Template**: Developed by Samuel L Meyers.
-- **Refinement**: Enhanced by Cascade, the AI coding assistant.
-
-## Recent Improvements
-
-- Enhanced backend configuration with environment variables for debug mode and port.
-- Implemented error handling for missing files in the backend.
-- Added logging for better monitoring of backend operations.
-- Improved accessibility features in the frontend.
-- Prepared for lazy loading of components in the frontend.
-
-[React Readme](/README.react.md)
+- **Template**: Developed by Samuel L Meyers
+- **Refinement**: Enhanced by Cascade, the AI coding assistant
